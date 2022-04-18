@@ -1,0 +1,24 @@
+.side-bar{
+      background-color: rgba(135, 170, 235, 0.681);
+      height: 100vh;
+}
+
+.dashboard-items{
+      display: flex;
+}
+
+.dashboard-icon{
+      padding: 10px;
+}
+
+.dashboard-button{
+      padding: 10px;
+}
+
+.dashboard-button button{
+      background-color: transparent;
+      border: none;
+      font-weight: bold;
+      color: white;
+      font-size: larger;
+}

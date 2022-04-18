@@ -1,0 +1,17 @@
+.form-wrapper{
+      display: flex;
+      justify-content: center;
+      
+}
+
+.form{
+      width: 50%;
+      background-color: aliceblue;
+      padding: 2rem;
+      border-radius: 1rem;
+}
+
+.submit-button{
+      padding: 2rem;
+      width: 25%;
+}

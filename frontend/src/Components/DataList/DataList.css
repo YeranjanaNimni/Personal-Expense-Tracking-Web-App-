@@ -1,0 +1,15 @@
+.data-list-filters-cover{
+      padding: 1rem;
+}
+
+.filter-button{
+      margin-right: 4rem;
+}
+
+.action-icons-wrapper{
+      display: flex;
+}
+
+.action-icon{
+      margin: 0px 5px;
+}

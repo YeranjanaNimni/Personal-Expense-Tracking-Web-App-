@@ -1,0 +1,28 @@
+/* .apexcharts-legend{
+      position: absolute;
+      left: auto;
+      top: 200px !important;
+      right: 5px;
+} */
+
+@import url("../src/Components/Overview/Overview.css");
+@import url("../src/Layouts/ProfileImage/ProfileImage.css");
+@import url("../src/Layouts/SideBar/SideBar.css");
+@import url("../src/Components/AddNewExpensive/AddNewExpensive.css");
+@import url("../src/Components/DataList/DataList.css");
+
+.sub-heading{
+      padding: 1rem;
+}
+
+.filters-cover{
+      display: flex;
+}
+
+.filter{
+      margin: 1rem;
+}
+
+.table{
+      padding: 0.5rem;
+}

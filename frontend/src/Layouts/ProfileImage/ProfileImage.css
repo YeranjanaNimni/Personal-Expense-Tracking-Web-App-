@@ -1,0 +1,10 @@
+.profile-image-wrapper{
+      padding: 3rem 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.profile-image{
+      margin: 0rem 3rem;
+}
