@@ -5,8 +5,7 @@ import { BrowserRouter as Router,Route } from "react-router-dom";
 import Overview from './Components/Overview/Overview';
 import DataList from './Components/DataList/DataList';
 import Settings from './Components/Settings/Settings';
-import ProfileImage from './Layouts/ProfileImage/ProfileImage';
-import AddNewExpensive from './Components/AddNewExpensive/AddNewExpensive';
+import ExpensiveForm from './Components/ExpensiveForm/ExpensiveForm';
 
 function App() {
   return (
@@ -23,7 +22,7 @@ function App() {
               <Route exact path="/" component={Overview} />
               <Route exact path="/data-list" component={DataList} />
               <Route exact path="/settings" component={Settings} />
-              <Route exact path="/add-new" component={AddNewExpensive} />
+              <Route exact path="/add-new" component={ExpensiveForm} />
               </div>
             </Col>
           </Row>
