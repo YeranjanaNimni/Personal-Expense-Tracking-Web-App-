@@ -22,3 +22,20 @@
       color: white;
       font-size: larger;
 }
+
+
+/* ******************************** Responsiveness for Tablets   ******************************** */
+@media screen and (max-width: 992px) {}
+.side-bar{
+      background-color: rgba(135, 170, 235, 0.681);
+      height: 100vh;
+} 
+
+
+/* ********************************  Responsiveness for Mobiles  ******************************** */
+@media screen and (max-width: 600px) {
+      .side-bar{
+            background-color: rgba(135, 170, 235, 0.681);
+            height: 45vh;
+      } 
+}

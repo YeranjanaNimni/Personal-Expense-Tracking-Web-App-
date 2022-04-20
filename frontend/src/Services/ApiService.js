@@ -1,12 +1,4 @@
 import axios from "axios";
-// const axiosInstance = axios.create({
-//       baseURL: process.env.REACT_APP_SERVICE_BASE_URL,
-//       timeout: 10000,
-//       headers: {
-//           "Content-Type": "application/json",
-//           "X-Api-Key": "yQDPI45Clb4VL8MkT76dX99FQtlBqYm1FviCrwtg",
-//       }
-//   });
 const ROOT_URL = process.env.REACT_APP_SERVICE_AUTH_URL;
 
 const ApiService = {

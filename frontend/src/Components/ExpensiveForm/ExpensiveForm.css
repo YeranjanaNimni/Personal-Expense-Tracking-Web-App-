@@ -15,3 +15,17 @@
       padding: 2rem;
       width: 25%;
 }
+
+/* ******************************** Responsiveness for Tablets   ******************************** */
+@media screen and (max-width: 992px) {}
+.form{
+      width: 75%;
+} 
+
+
+/* ********************************  Responsiveness for Mobiles  ******************************** */
+@media screen and (max-width: 600px) {
+      .form{
+            width: 100%;
+      }  
+}

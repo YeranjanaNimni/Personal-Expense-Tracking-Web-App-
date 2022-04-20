@@ -22,6 +22,7 @@ const DataList = () => {
     history.push(path);
   }
 
+  //Delete an Expense
   const onClickDelete = (id) => {
     Swal.fire({
       title: "",
@@ -38,16 +39,17 @@ const DataList = () => {
             console.log(data);
             window.location.reload(false);
           })
-          .catch(err => console.log(err));
+          .catch(err => { throw err });
       }
     })
   }
 
+  //Filter Expenses
   const onClickFilter = () => {
-    let data = {startDate: startDate, endDate: endDate};
+    let data = { startDate: startDate, endDate: endDate };
     ApiService.filter("getByDateRange", data)
-    .then(data => setExpensesList(data.data))
-    .catch(err => { throw err})
+      .then(data => setExpensesList(data.data))
+      .catch(err => { throw err })
   }
 
 
@@ -56,7 +58,7 @@ const DataList = () => {
       .then(data => {
         setExpensesList(data.data);
       })
-      .catch(err => console.log(err));
+      .catch(err => { throw err });
 
   }, [])
 
@@ -90,16 +92,6 @@ const DataList = () => {
                 <div className='filter'>
                   <button onClick={onClickFilter}> Filter </button>
                 </div>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className='data-list-filter'>
-              <div>Filter by Type </div>
-              <div className='filters-cover'>
-                <div className='filter'><input type="date" /></div>
-                <div className='filter'><input type="date" /></div>
-                <div className='filter filter-button'> <button> Filter </button></div>
               </div>
             </div>
           </Col>

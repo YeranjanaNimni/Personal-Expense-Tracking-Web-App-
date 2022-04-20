@@ -4,7 +4,6 @@ import { Row, Col, Container } from 'react-bootstrap';
 import { BrowserRouter as Router,Route } from "react-router-dom";
 import Overview from './Components/Overview/Overview';
 import DataList from './Components/DataList/DataList';
-import Settings from './Components/Settings/Settings';
 import ExpensiveForm from './Components/ExpensiveForm/ExpensiveForm';
 
 function App() {
@@ -14,15 +13,14 @@ function App() {
       <Router>
         <Container fluid>
           <Row>
-            <Col sm={2}>
+            <Col sm={12} md={4} lg={2} >
               <SideBar />
             </Col>
-            <Col sm={10}>
+            <Col sm={12} md={8} lg={10}>
               <div className='my-5'>
               <Route exact path="/" component={Overview} />
-              <Route exact path="/data-list" component={DataList} />
-              <Route exact path="/settings" component={Settings} />
-              <Route exact path="/add-new" component={ExpensiveForm} />
+             <Route exact path="/data-list" component={DataList} /> 
+              <Route exact path="/add-new" component={ExpensiveForm} /> 
               </div>
             </Col>
           </Row>
