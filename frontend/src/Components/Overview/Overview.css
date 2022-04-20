@@ -1,13 +1,15 @@
 .overview-statics-cards-wrapper{
       padding: 1rem;
-      display: flex;
+      margin-top: 2rem;
+
 }
 
 .overview-statics-cards{
-      padding: 2rem;
+      width: 100%;
+      padding: 2rem 4rem;
       background-color: rgba(238, 211, 241, 0.722);
       border-radius: 15px;
-      margin: 10px;
+      margin: 0px;
 }
 
 .overview-statics-cards-text{

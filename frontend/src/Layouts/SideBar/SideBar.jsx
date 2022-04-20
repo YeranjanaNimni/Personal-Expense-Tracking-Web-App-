@@ -11,11 +11,9 @@ library.add(fas, fab);
 
 const SideBar = () => {
 
-  // const history = useHistory();
   let history = useHistory();
 
   const routeChange = (path) => {
-    console.log(">>>", path)
     history.push(path);
   }
 
@@ -44,16 +42,6 @@ const SideBar = () => {
             </div>
             <div className='dashboard-button'>
               <button onClick={() => { routeChange("data-list") }}>List</button>
-            </div>
-          </div>
-        </Col>
-        <Col xs={12}>
-          <div className='dashboard-items'>
-            <div className='dashboard-icon'>
-              <FontAwesomeIcon icon="gear" color="white" size="2x" />
-            </div>
-            <div className='dashboard-button'>
-              <button onClick={() => { routeChange("settings") }}>Settings</button>
             </div>
           </div>
         </Col>

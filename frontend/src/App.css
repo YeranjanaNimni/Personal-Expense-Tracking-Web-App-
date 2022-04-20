@@ -8,7 +8,7 @@
 @import url("../src/Components/Overview/Overview.css");
 @import url("../src/Layouts/ProfileImage/ProfileImage.css");
 @import url("../src/Layouts/SideBar/SideBar.css");
-@import url("../src/Components/AddNewExpensive/AddNewExpensive.css");
+@import url("../src/Components/ExpensiveForm/ExpensiveForm.css");
 @import url("../src/Components/DataList/DataList.css");
 
 .sub-heading{
@@ -20,7 +20,7 @@
 }
 
 .filter{
-      margin: 1rem;
+      margin: 0.1rem;
 }
 
 .table{
